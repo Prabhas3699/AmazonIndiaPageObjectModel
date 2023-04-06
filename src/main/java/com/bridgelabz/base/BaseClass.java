@@ -43,7 +43,7 @@ public class BaseClass {
             chromeOptions.addArguments("--remote-allow-origins=*");
             chromeOptions.addArguments("--disable-notifications");
             driver = new ChromeDriver(chromeOptions);
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         } else if (browser.equalsIgnoreCase(browser)) {
             WebDriverManager.firefoxdriver().setup();
