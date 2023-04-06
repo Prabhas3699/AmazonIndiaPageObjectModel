@@ -12,6 +12,7 @@
             <class name="com.bridgelabz.page.HomePageTest"/>
             <class name="com.bridgelabz.page.AddAddressPageTest"/>
             <class name="com.bridgelabz.page.SearchPageTest"/>
+            <class name="com.bridgelabz.page.GoToHomePage"/>
         </classes>
     </test>
 </suite>
