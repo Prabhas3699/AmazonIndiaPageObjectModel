@@ -5,7 +5,7 @@
         <listener class-name="com.bridgelabz.extendreport.ExtendReportListener"></listener>
     </listeners>
 
-    <test name="Facebook Page Object Model Test Suite">
+    <test name="Amazon India Page Object Model Test Suite">
         <classes>
             <class name="com.bridgelabz.page.AccountCreatingPageTest"/>
             <class name="com.bridgelabz.page.LoginPageTest"/>
