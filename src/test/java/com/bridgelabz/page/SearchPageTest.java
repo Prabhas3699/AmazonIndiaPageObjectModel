@@ -12,6 +12,7 @@ public class SearchPageTest extends BaseClass {
     AddressPage addressPage;
     AddAddressPage addAddressPage;
     SearchPage searchPage;
+    SearchProduct searchProduct;
 
     @BeforeMethod
     public void setup() {
@@ -31,6 +32,11 @@ public class SearchPageTest extends BaseClass {
     @Test
     public void ClickOnSearchPageTest(){searchPage=addAddressPage.clickOnSearch();}
 
+    @Test
+    public void ClickOnProductTest(){
+        searchPage=addAddressPage.clickOnSearch();
+        searchProduct=addAddressPage.clickOnProduct();
+    }
     @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(5000);

@@ -2,6 +2,7 @@ package com.bridgelabz.base;
 
 import com.bridgelabz.util.WebEventListener;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,6 +19,7 @@ import java.util.Properties;
 public class BaseClass {
     public static WebDriver driver = null;
     public Actions actions=null;
+    public JavascriptExecutor js = (JavascriptExecutor) driver;
     Properties properties;
     EventFiringWebDriver eventFiringWebDriver;
     WebEventListener eventListener;
