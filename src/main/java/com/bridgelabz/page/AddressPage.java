@@ -10,10 +10,10 @@ public class AddressPage extends BaseClass {
 
     @FindBy(xpath = "//div[@id='ya-myab-plus-address-icon']")
     private WebElement addAddress;
-    @FindBy(xpath = "(//span[@class='a-button-text a-declarative'])[1]")
-    private WebElement country;
-    @FindBy(xpath = "//span[contains(text(),'India')]")
-    private WebElement countryName;
+//    @FindBy(xpath = "(//span[@class='a-button-text a-declarative'])[1]")
+//    private WebElement country;
+//    @FindBy(xpath = "//span[contains(text(),'India')]")
+//    private WebElement countryName;
     @FindBy(xpath = "//input[@id='address-ui-widgets-enterAddressFullName']")
     private WebElement name;
     @FindBy(xpath = "//input[@id='address-ui-widgets-enterAddressPhoneNumber']")
